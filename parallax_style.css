@@ -1,0 +1,170 @@
+body, html {
+    height: 100%;
+}
+.parallax_1 {
+    background-image: url("https://www.simplyrecipes.com/thmb/7543aB-Uc2MDPQU-dHv7NnZBiNw=/2000x1333/filters:fill(auto,1)/Hot-Chocolate-LEAD-4-90a8f6755c6c45fd84f93762270bcd69.jpg");
+    height: 97%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.60;
+}
+.parallax_2 {
+    background-image: url("https://www.washingtonpost.com/resizer/yLLgUalzMs5pN5e_w7PCHBuk2Ac=/arc-anglerfish-washpost-prod-washpost/public/63KTAMX22M5OREOJ2XCGU2PZHI.jpg");
+    height: 80%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.60;
+}
+.parallax_3 {
+    background-image: url("https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/hot-chocolate-1573680271.jpg");
+    height: 90%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.60;
+}
+#first_box {
+    height: 90px;
+    width: 45%;
+    background-color: mediumpurple;
+    opacity: 1;
+    position: absolute;
+    top: 45%;
+    text-align: center;
+    left: 28%;
+    border-radius: 20px;
+}
+#first_box h2 {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    font-family: "PT Sans", sans-serif;
+    font-weight: bold;
+    letter-spacing: 0.05em;
+}
+#second_box {
+    height: 1040px;
+    background-color: mediumpurple;
+    margin-top: -23px;
+}
+#third_box {
+    height: 750px;
+    background-color: mediumpurple;
+    margin-top: -23px;
+}
+#second_box h2, #third_box h2 {
+    font-size: 28px;
+    color: white;
+    font-family: "PT Sans", sans-serif;
+    font-weight: normal;
+    letter-spacing: 0.05em;
+    text-align: center;
+    padding: 80px 50px 60px 50px;
+}
+#inner_1, #inner_2 {
+    background-color: darkslateblue;
+    width: 60%;
+    margin: auto auto 50px auto;
+    border-radius: 20px;
+}
+#inner_1 {
+    height: auto;
+}
+#inner_2 {
+    height: auto;
+}
+#inner_1 h3, #inner_2 h3 {
+    font-size: 28px;
+    color: white;
+    font-family: "PT Sans", sans-serif;
+    font-weight: bold;
+    line-height: 1.5em;
+    padding: 30px 50px 0 50px;
+}
+ul {
+    padding: 0 50px 30px 70px;
+}
+#inner_1 p, #inner_1 li {
+    font-size: 20px;
+    color: white;
+    font-family: "PT Sans", sans-serif;
+    font-weight: normal;
+    line-height: 1.5em;
+}
+#inner_2 p {
+    font-size: 20px;
+    color: white;
+    font-family: "PT Sans", sans-serif;
+    font-weight: normal;
+    line-height: 1.5em;
+    padding: 0 50px 30px 50px;
+}
+.flex_container {
+    display: flex;
+    flex-direction: row;
+}
+#inner_3, #inner_4, #inner_5 {
+    background-color: darkslateblue;
+    height: auto;
+    width: 25%;
+    margin: auto;
+    border-radius: 20px;
+}
+#inner_3 h3, #inner_4 h3, #inner_5 h3 {
+    font-size: 23px;
+    color: white;
+    text-align: center;
+    font-family: "PT Sans", sans-serif;
+    font-weight: bold;
+}
+#inner_3 img {
+    height: 200px;
+    width: 230px;
+    margin: auto;
+    display: block;
+}
+#inner_4 img {
+    height: 230px;
+    width: 200px;
+    margin: auto;
+    display: block;
+}
+#inner_5 img {
+    height: 200px;
+    width: 200px;
+    margin: auto;
+    display: block;
+}
+#inner_3 p, #inner_4 p, #inner_5 p {
+    font-size: 20px;
+    color: white;
+    font-family: "PT Sans", sans-serif;
+    font-weight: normal;
+    line-height: 1.5em;
+    padding: 0 50px 0 50px;
+}
+#footer {
+    width: 100%;
+    background-color: darkslateblue;
+    margin-top: -15px;
+}
+#footer p {
+    color: white;
+    font-family: "PT Sans", sans-serif;
+    size: 18px;
+    font-weight: normal;
+    text-align: center;
+    padding: 10px 0 10px 0;
+}
+[aos="fade"] {
+    opacity: 0;
+    transition-property: opacity;
+}
+[aos="fade"].aos-animate {
+    opacity: 1;
+}
